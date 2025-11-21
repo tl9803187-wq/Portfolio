@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="site.css">
+    <script src="main.js" defer></script>
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+    <link rel="icon" type="image/png" href="icons8-developer-48.png">
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.153.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.153.0/examples/jsm/"
+        }
+    }
+</script>
+</head>
+
+<body>
+    <nav>
+        <ul id="navbar">
+
+            <li id="nome">
+                <h1>Thiago</h1>
+            </li>
+            <h1 id="dev">-Dev</h1>
+            <ul id="menu-centro">
+                <li><a href="#folha2">Imformações pessoais</a></li>
+                <li><a href="#folha3">Projetos</a></li>
+                <li><a href="#rodape">Contatos</a></li>
+            </ul>
+
+            <ul id="menu-icones">
+                <li><a href="https://github.com/tl9803187-wq"><img src="icons8-github-48.png" class="icon"></a></li>
+                <li><a href="#"><img src="icons8-linkedin.svg" class="icon"></a></li>
+                <li><a href="https://www.instagram.com/tls.dev_?igsh=MWM0dXg0NXJzaTBzMw=="><img
+                            src="icons8-instagram-48.png" class="icon"></a></li>
+                <li><a href="tl9803187@gmail.com"><img src="icons8-email-48.png" class="icon"></a></li>
+                <li><a href="https://wa.me/5582981551873"><img src="icons8-whatsapp-logo.svg" class="icon"></a></li>
+            </ul>
+
+        </ul>
+    </nav>
+
+
+    <section id="folha1">
+        <div class="center">
+            <img src="Thiago de lima.jpeg" id="minha">
+
+        </div>
+        <div id="apresentação">
+            <h4>Olá seja bem vindo!</h4>
+            <h1 id="titulo">Thiago de Lima</h1>
+            <h2 id="sub">Desenvolvedor</h2>
+        </div>
+    </section>
+
+    <section id="folha2">
+        <h3 id="sobre-center">Imformações pessoais</h3>
+        <p>
+            Sobre mim
+
+            Olá! Meu nome é Thiago Lima, sou estudante de Ciência da Computação e desenvolvedor em início de carreira,
+            sempre explorando novas tecnologias para criar projetos práticos e funcionais. Tenho grande interesse em
+            desenvolvimento Full Stack, criação de interfaces visuais interativas e construção de sites modernos e
+            dinâmicos.
+            Gosto de transformar ideias em projetos reais — desde páginas web com design próprio até sistemas completos
+            que unem lógica, criatividade e tecnologia. Atualmente, estou aprofundando meus conhecimentos em
+            desenvolvimento web, integração entre softwares, criação de interfaces e soluções inteligentes.
+            Meu objetivo é evoluir como desenvolvedor para, no futuro, criar aplicações completas: do visual à lógica
+            final.
+
+        </p>
+        <h3>Habilidades</h3>
+        <p>
+
+            Minhas principais habilidades
+
+            Desenvolvimento Full Stack (criação de aplicações completas, tanto no visual quanto na lógica)
+            Desenvolvimento de Soluções Eletrônicas e Interativas (protótipos, dispositivos e sistemas físicos
+            inteligentes)
+            Desenvolvimento Web
+            •HTML / CSS
+            •Interfaces visuais interativas
+            •Design de sites modernos
+            Lógica de Programação
+            Criação de protótipos e projetos funcionai
+        </p>
+
+    </section>
+
+    <section id="folha3">
+        <h3 id="text3">Projetos</h3>
+        <div class="card">
+            <canvas id="quadro" width="400" height="200"> </canvas>
+
+            <div class="descricao">
+                <h3>Gerenciador de Bioteca</h3>
+                <p>Um sistema desenvolvido para apoiar a organização e modernização da Biblioteca Municipal Sesi,
+                    localizada no município de Chã Preta – AL. O projeto otimiza o controle de empréstimos, catalogação
+                    e gerenciamento de acervo, oferecendo uma solução prática, intuitiva e voltada às necessidades da
+                    comunidade local.
+                </p>
+            </div>
+
+        </div>
+        <div class="card">
+            <div id="canvas-container">
+                <script type="module" src="objeto.js"></script>
+            </div>
+            <div class="descricao2">
+                <h3>Modelagem digital</h3>
+                <p>AModelo digital inspirado no clássico X-Wing de Star Wars, desenvolvido no Blender para estudo de
+                    modelagem 3D, texturização e renderização. O projeto destaca técnicas de criação detalhada e
+                    exibição visual, sendo utilizado como demonstração artística e técnica dentro do portfólio.</p>
+            </div>
+
+        </div>
+        <div class="card">
+            <canvas id="quadro" width="400" height="200"> </canvas>
+            <div class="descricao">
+                <h3>Em breve</h3>
+                <p></p>
+            </div>
+        </div>
+    </section>
+    <footer id="rodape">
+        <div class="container-rodape">
+
+            <div class="coluna">
+                <h3>ThiagoDev</h3>
+                <p>Desenvolvedor Full Stack</p>
+            </div>
+
+            <div class="coluna">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#folha2">Imformações pessoais</a></li>
+                    <li><a href="#folha3">Projetos</a></li>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="coluna">
+                <h3>Redes sociais</h3>
+                <div class="social">
+                    <a href="https://www.instagram.com/tls.dev_?igsh=MWM0dXg0NXJzaTBzMw=="><img
+                            src="icons8-instagram-48.png" class="icon"></a>
+                    <a href="https://github.com/tl9803187-wq"><img src="icons8-github.svg" class="icon"></a>
+                    <a href="#"><img src="icons8-linkedin.svg" class="icon"></a>
+                    <a href="https://wa.me/5582981551873"><img src="icons8-whatsapp-logo.svg" class="icon"></a>
+                    <a href="tl9803187@gmailcom"><img src="icons8-email-48.png" class="icon"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="copy">
+            © 2025 ThiagoDev — Todos os direitos reservados
+        </div>
+    </footer>
+
+</body>
+
+</html>
